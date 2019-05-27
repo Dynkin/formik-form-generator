@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "id": "group1",
+      "name": "Личные данные",
+      "dataType": "group",
+      "fields": [
+        {
+          "id": "fio",
+          "dataType": "field",
+          "type": "input-text",
+          "label": "ФИО",
+          "name": "fio",
+          "placeholder": "Иванов Иван Иванович"
+        },
+        {
+          "id": "color",
+          "dataType": "field",
+          "fieldType": "select",
+          "label": "Любимый Цвет",
+          "name": "color",
+          "options": [
+            {
+              "value": "red",
+              "label": "Красный"
+            },
+            {
+              "value": "blue",
+              "label": "Синий"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group2",
+      "name": "Контактные данные",
+      "dataType": "group",
+      "fields": [
+        {
+          "id": "email",
+          "dataType": "field",
+          "fieldType": "input-email",
+          "label": "E-mail",
+          "name": "email",
+          "placeholder": "ivanov@mail.ru"
+        }
+      ]
+    },
+    {
+      "id": "aboutProject",
+      "dataType": "field",
+      "fieldType": "textarea",
+      "label": "О проекте",
+      "name": "aboutProject",
+      "placeholder": "Цель проекта - ..."
+    }
+  ],
+  "submit": {
+    "id": "submit",
+    "label": "Отправить заявку"
+  }
+}

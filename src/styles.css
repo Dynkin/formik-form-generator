@@ -1,0 +1,15 @@
+.App {
+  padding-top: 40px;
+}
+
+.group {
+  margin: 15px 0 40px;
+  position: relative;
+}
+
+.group h3 {
+  display: block;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
